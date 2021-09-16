@@ -1,0 +1,110 @@
+
+
+.NameTag
+{
+  color: #E52B50 ;
+  font-weight: bold;
+}
+.navColor
+{
+  background-color:#8bd3dd; 
+  
+    
+}
+
+.nav-item a
+{
+  color: #E52B50 ;
+  font-weight: bold;
+}
+
+body
+{
+  background-color: #dda218;
+  margin: 0rem;
+  font-family: 'Poppins';
+}
+
+.project-container
+{
+  background-color:#fef6e4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:2rem;
+   position:relative;
+   display: block;
+   padding:2rem;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+   margin-top: 2rem;
+}
+
+.projects
+{
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+
+
+.dots{
+  border: 0;
+  border-top: 0.6rem dotted #8bd3dd;
+  margin: 3rem auto
+}
+.projectsBtn
+{
+  display: flex;
+  position: relative;
+  margin-top: 1rem;
+
+  
+}
+
+.projectsBtn a{
+  margin-right: 1rem;
+  background-color:  #f582ae;;
+  padding: 0.5rem;
+  border: 1px solid black;
+  text-transform:uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+footer
+{
+     position: absolute;
+     margin-bottom: 0;
+     background-color:#ADD8E6;
+     text-align: center;
+     width: 100%;
+  
+}
+
+
+.social-icons li
+ {
+    display: inline-block;
+   width: auto;
+   list-style: outside none none;
+   text-align: center;
+ }
+
+ .icon
+ {
+     font-size: 2rem !important;
+    position: relative;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+ }
+
+ i{
+    color: #E52B50 ;
+   }
+
+ .titleOfProject
+ {
+   font-weight: bold;
+ }

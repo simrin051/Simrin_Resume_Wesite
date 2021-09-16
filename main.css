@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@488&family=Poppins:wght@400;500&display=swap");
+
+
+.NameTag
+{
+  color: #E52B50 ;
+  font-weight: bold;
+}
+.navColor
+{
+  background-color:#8bd3dd; 
+  
+    
+}
+
+.nav-item a
+{
+  color: #E52B50 ;
+  font-weight: bold;
+}
+
+#navbarItems
+{
+  float:right;
+}
+
+.details
+{
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2rem;
+     position: absolute;
+     display: block;
+     width: 50%;
+     padding:2rem;
+     margin-top: 2rem;
+}
+
+i{
+  color: #E52B50 ;
+ }
+
+
+
+.techicon
+{
+    
+    max-width: 1rem;
+    max-height: 1rem;
+}
+
+
+.container
+ {
+    background-color:#fef6e4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2rem;
+    margin-top: 2rem;
+     position: absolute;
+     display: block;
+     padding:2rem;
+     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ }
+ 
+ 
+ .dots{
+  border: 0;
+  border-top: 0.6rem dotted #8bd3dd;
+  margin: 3rem auto
+}
+
+.social-icons li
+{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.icon
+{
+    font-size: 2rem !important;
+   position: relative;
+   margin-top: 1rem;
+   text-align: center;
+}
+
+
+footer
+{
+  width:100%;
+  background-color:#8bd3dd; 
+  margin-bottom:0px;
+  position: absolute;
+  text-align: center;
+}
+
+.blogs-btn
+{
+    
+    background-color:  #f582ae;;
+    border :1px solid black;
+    margin-left:0%;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.projects-btn
+{
+    
+    background-color:  #f582ae;;
+    border :1px solid black;
+    padding: 0.5rem;
+    margin-left:0rem;
+    position:relative;
+}
+
+#navCrossIcon
+{
+  visibility: hidden;
+}
