@@ -1,130 +1,141 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@488&family=Poppins:wght@400;500&display=swap");
 
 /********************/
-.NameTag
-{
-  color: #E52B50 ;
-  font-weight: bold;
-}
-.navColor
-{
-  background-color:#8bd3dd; 
-  
-    
+
+.navbar {
+  position: relative;
+  background: #8bd3dd;
+  height: 10%;
 }
 
-.nav-item a
-{
-  color: #E52B50 ;
+#navlist {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background: #8bd3dd;
+  float: right;
+}
+
+#navlist li {
+  padding: 0.5rem;
+  font-size: 18px;
+  color: white;
+}
+
+#navlist li a {
+  text-decoration: none;
+}
+
+.NameTag {
+  color: #e52b50;
   font-weight: bold;
+  text-decoration: none;
 }
 
 /*************************/
 
-
-body{
-    background-color: #fef6e4;
-    font-family: 'Poppins';
-    margin-left: 0rem;
-    margin-right:0rem ;
-    margin-top: 0rem;
+body {
+  background-color: #fef6e4;
+  font-family: "Poppins";
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-top: 0rem;
 }
 
+.tech-container {
+  background-color: #fef6e4;
 
-.blogImage
-{
-    background-image:url(/images/Blog_post.svg);
-    width:100%;
-    height: 100%;
-    display: block !important;
-    width: 50%;
-    height: 30%;
-    margin-left:auto;
-    margin-right:auto;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    align-items: center;
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 70%;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
 }
 
-
-.blog-container
-{
-    margin-bottom: 5rem;
-    position: relative;
-    background-color: #fef6e4;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:1rem;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-     position:relative;
-     display: block;
-     width: 50%;
-     padding:2rem;
-     
+.blogImage {
+  background-image: url(/images/Blog_post.svg);
+  width: 100%;
+  height: 100%;
+  display: block !important;
+  width: 50%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
 }
 
-footer
-{
-  width:100%;
-  background-color:#8bd3dd; 
-  margin-bottom:0px;
+.blog-container {
+  margin-bottom: 5rem;
+  position: relative;
+  background-color: #fef6e4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  position: relative;
+  display: block;
+  width: 50%;
+  padding: 2rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #8bd3dd;
+  margin-bottom: 0px;
   position: absolute;
   text-align: center;
 }
 
-
-.social-icons li
- {
-    display: inline-block;
-   width: auto;
-   list-style: outside none none;
-   text-align: center;
- }
-
- .icon
- {
-     font-size: 2rem !important;
-    position: relative;
-    margin-right: 2rem;
-    margin-top: 1rem;
-    text-align: center;
- }
-
- i{
-    color: #E52B50 ;
-   }
-   hr{
-    border: 0;
-    border-top: 0.6rem dotted #8bd3dd;
-    width: 4rem;
-    margin: 3rem auto
+.social-icons li {
+  display: inline-block;
+  width: auto;
+  list-style: outside none none;
+  text-align: center;
 }
 
-.blogBtn
-{
-    display: flex;
-    position: relative;
-    margin-top: 1rem;
-  
-    
+.icon {
+  font-size: 2rem !important;
+  position: relative;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  text-align: center;
 }
 
-.blogBtn a{
-    margin-right: 1rem;
-    background-color:  #f582ae;;
-    padding: 0.5rem;
-    border: 1px solid black;
-    text-transform:uppercase;
-    text-decoration: none;
-    color: black;
+i {
+  color: #e52b50;
 }
-
-.dots{
+hr {
   border: 0;
   border-top: 0.6rem dotted #8bd3dd;
-  margin: 3rem auto
+  width: 4rem;
+  margin: 3rem auto;
+}
+
+.blogBtn {
+  display: flex;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.blogBtn a {
+  margin-right: 1rem;
+  background-color: #f582ae;
+  padding: 0.5rem;
+  border: 1px solid black;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.dots {
+  border: 0;
+  border-top: 0.6rem dotted #8bd3dd;
+  margin: 3rem auto;
 }

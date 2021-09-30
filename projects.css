@@ -1,110 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@488&family=Poppins:wght@400;500&display=swap");
 
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #fef6e4;
+  font-family: Poppins;
+}
 
-.NameTag
-{
-  color: #E52B50 ;
+.navbar {
+  position: relative;
+  background: #8bd3dd;
+  height: 10%;
+}
+
+#navlist {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background: #8bd3dd;
+  float: right;
+}
+
+#navlist li {
+  padding: 0.5rem;
+  font-size: 18px;
+  color: white;
+}
+
+#navlist li a {
+  text-decoration: none;
+}
+
+.NameTag {
+  color: #e52b50;
   font-weight: bold;
-}
-.navColor
-{
-  background-color:#8bd3dd; 
-  
-    
+  text-decoration: none;
 }
 
-.nav-item a
-{
-  color: #E52B50 ;
-  font-weight: bold;
-}
-
-body
-{
+body {
   background-color: #dda218;
   margin: 0rem;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
-.project-container
-{
-  background-color:#fef6e4;
+.project-container {
+  background-color: #fef6e4;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom:2rem;
-   position:relative;
-   display: block;
-   padding:2rem;
-   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-   margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  display: block;
+  padding: 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-top: 2rem;
+  width: 70%;
 }
 
-.projects
-{
-    margin-left: auto;
-    margin-right: auto;
-      
+.projects {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-.dots{
+.dots {
   border: 0;
   border-top: 0.6rem dotted #8bd3dd;
-  margin: 3rem auto
+  margin: 3rem auto;
+  width: 15rem;
 }
-.projectsBtn
-{
+.projectsBtn {
   display: flex;
   position: relative;
   margin-top: 1rem;
-
-  
 }
 
-.projectsBtn a{
+.projectsBtn a {
   margin-right: 1rem;
-  background-color:  #f582ae;;
+  background-color: #f582ae;
   padding: 0.5rem;
   border: 1px solid black;
-  text-transform:uppercase;
+  text-transform: uppercase;
   text-decoration: none;
   color: black;
 }
 
-
-
-footer
-{
-     position: absolute;
-     margin-bottom: 0;
-     background-color:#ADD8E6;
-     text-align: center;
-     width: 100%;
-  
+footer {
+  position: absolute;
+  margin-bottom: 0;
+  background-color: #add8e6;
+  text-align: center;
+  width: 100%;
 }
 
+.social-icons li {
+  display: inline-block;
+  width: auto;
+  list-style: outside none none;
+  text-align: center;
+}
 
-.social-icons li
- {
-    display: inline-block;
-   width: auto;
-   list-style: outside none none;
-   text-align: center;
- }
+.icon {
+  font-size: 2rem !important;
+  position: relative;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
 
- .icon
- {
-     font-size: 2rem !important;
-    position: relative;
-    margin-right: 2rem;
-    margin-top: 1rem;
-    text-align: center;
- }
+i {
+  color: #e52b50;
+}
 
- i{
-    color: #E52B50 ;
-   }
-
- .titleOfProject
- {
-   font-weight: bold;
- }
+.titleOfProject {
+  font-weight: bold;
+}
