@@ -139,3 +139,28 @@ hr {
   border-top: 0.6rem dotted #8bd3dd;
   margin: 3rem auto;
 }
+
+
+#toggle-nav {
+  display: none;
+  margin: auto;
+  cursor: pointer;
+  float: right;
+}
+@media all and ( max-width: 500px ) { 
+
+  .navbar {
+       padding: 1.6em;
+  }
+
+  #navlist {
+       flex-direction: column;
+       display: none;
+  }
+  #toggle-nav {
+    display: block;
+    color: white;
+    float: right;
+    font-size: 2rem;
+ }
+}

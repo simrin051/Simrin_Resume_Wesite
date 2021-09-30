@@ -112,3 +112,27 @@ footer {
 i {
   color: #e52b50;
 }
+
+#toggle-nav {
+  display: none;
+  margin: auto;
+  cursor: pointer;
+  float: right;
+}
+@media all and ( max-width: 500px ) { 
+
+  .navbar {
+       padding: 1.6em;
+  }
+
+  #navlist {
+       flex-direction: column;
+       display: none;
+  }
+  #toggle-nav {
+    display: block;
+    color: white;
+    float: right;
+    font-size: 2rem;
+ }
+}

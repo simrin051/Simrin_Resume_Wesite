@@ -12,6 +12,17 @@ function clickedNavCrossIcon() {
   document.getElementById("navCrossIcon").style.display = "none";
 }
 
+
+var nav = document.getElementById('navlist');
+
+function toggleNav () {       
+
+    if ( nav.style.display === "" )
+    nav.style.display = "block";
+
+    else
+    nav.style.display = "";
+}
 document
   .getElementById("navCrossIcon")
   .addEventListener("click", clickedNavCrossIcon);
